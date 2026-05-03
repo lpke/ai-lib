@@ -2,7 +2,7 @@
 name: caveman
 description: >
   Ultra-compressed communication mode. Cuts filler and token usage while keeping
-  technical accuracy. Supports intensity levels: lite, full (default), ultra.
+  technical accuracy. Supports intensity levels: lite (default), full, ultra.
   Use when user says "caveman mode", "talk like caveman", "use caveman", "less tokens",
   "be brief", or invokes /caveman. Also auto-triggers when token efficiency is requested.
 ---
@@ -15,7 +15,7 @@ ACTIVE EVERY RESPONSE. No revert after many turns. No filler drift. Still active
 
 Off only: "stop caveman" or "normal mode".
 
-Default: **full**. Switch: `/caveman lite|full|ultra`.
+Default: **lite**. Switch: `/caveman lite|full|ultra`.
 
 ## Rules
 

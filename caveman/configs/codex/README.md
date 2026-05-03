@@ -1,12 +1,12 @@
 To auto-activate caveman on startup or resume:
 
-1. Add the contents of `hook.json` to `.codex/hooks.json` under `SessionStart`
+1. Add the contents of `hook_lite.json` or `hook_full.json` to `.codex/hooks.json` under `SessionStart`
 
 ```json
 {
   "hooks": {
     "SessionStart": [
-      <hook.json>
+      <hook_[lite|full].json>
     ]
   }
 }

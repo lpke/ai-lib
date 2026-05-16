@@ -16,5 +16,5 @@ To auto-activate caveman on startup or resume:
 
 ```toml
 [features]
-codex_hooks = true
+hooks = true
 ```

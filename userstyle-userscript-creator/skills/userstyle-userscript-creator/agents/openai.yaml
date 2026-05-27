@@ -1,0 +1,10 @@
+interface:
+  display_name: "Userstyle Userscript Creator"
+  short_description: "Test live page tweaks, then extract"
+  default_prompt: "Use $userstyle-userscript-creator to inspect the current page with Chrome DevTools MCP, test CSS or JavaScript live, and return or save the working tweak."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "chrome_devtools"
+      description: "Chrome DevTools MCP for inspecting live Chrome tabs, injecting CSS or JavaScript, and verifying page behavior."

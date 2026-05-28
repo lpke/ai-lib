@@ -1,0 +1,11 @@
+{
+  "matcher": "startup|resume",
+  "hooks": [
+    {
+      "type": "command",
+      "command": "printf 'CAVEMAN MODE ACTIVE. Read full SKILL.md below.\\n\\n'; cat /home/luke/.local/share/ai-lib/caveman/skills/caveman/SKILL.md",
+      "timeout": 5,
+      "statusMessage": "Loading caveman mode"
+    }
+  ]
+}

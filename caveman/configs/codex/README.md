@@ -1,12 +1,12 @@
 To auto-activate caveman on startup or resume:
 
-1. Add the contents of `hook_lite.json` or `hook_full.json` to `.codex/hooks.json` under `SessionStart`
+1. Add the contents of `hook.json` to `.codex/hooks.json` under `SessionStart`
 
 ```json
 {
   "hooks": {
     "SessionStart": [
-      <hook_[lite|full].json>
+      <hook.json>
     ]
   }
 }
@@ -18,3 +18,5 @@ To auto-activate caveman on startup or resume:
 [features]
 hooks = true
 ```
+
+**Note:** The hook prints the SKILL.md directly into the prompt, as opposed to relying on the agent to read it. This is done because often the agent was being lazy and not reading it every time.
